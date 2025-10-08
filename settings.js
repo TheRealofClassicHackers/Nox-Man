@@ -1,10 +1,10 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : KANGO-XMD 
-// @author : Hector 
+// @project_name : T-Bot 
+// @author : Hector & private27 
 // @telegram : http://t.me/official_kango
-// @github : OfficialKango
-// @whatsapp : +233509977126
+// @github : OfficialKango and TheRealofClassicHackers 
+// @whatsapp : +233509977126 &+27 73 370 1916
 
 //----------------------[ KANGO-XMD ]----------------------//
 
@@ -20,21 +20,21 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
+global.botname = process.env.BOT_NAME || 'T-Bot' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '+27 73 370 1916' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['+27 76 836 4144', '+27 73 370 1916'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'Private27' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -43,13 +43,13 @@ global.packname = process.env.STICKER_PACK_NAME || "KANGO-XMD"
 //--------------[ COUNTRY TIMEZONE ]------------//
 
 
-global.timezones = 'Africa/Accra';  // Set this to you timezone
+global.timezones = 'Africa/South Africa';  // Set this to you timezone
 
 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Hector & Privat27" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
@@ -62,13 +62,13 @@ global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©KANGO-XMD"
+global.wm = process.env.GL_WM || "> ©T-Bot"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '©kango-xmd', 
+  success: '©T-Bot', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
